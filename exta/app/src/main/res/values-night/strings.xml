@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_label">Settings</string>
+    <string name="ang_units">Angular units:</string>
+    <string name="using_scale_forms">📐 Use of scale forms</string>
+    <string name="currentYear">2024</string>
+</resources>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundColor"
+    android:elevation="0dp">
+
+    <Button
+        android:id="@+id/message_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:elevation="0dp"
+        android:enabled="true"
+
+        android:fontFamily="@font/sfpregular"
+        android:hapticFeedbackEnabled="true"
+        android:letterSpacing="0"
+        android:lineSpacingExtra="0sp"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="12dp"
+        android:shadowColor="#00FFFFFF"
+        android:stateListAnimator="@null"
+        android:text="@string/about_sendEmailBtn"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/foregroundColor"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:cornerRadius="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_year"
+        app:layout_constraintVertical_bias="0.0"
+        app:strokeColor="@color/accentColor"
+        app:strokeWidth="2dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/im_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/ic_launcher_background"
+            android:contentDescription="@string/applogo"
+            app:srcCompat="@mipmap/ic_launcher" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="-5dp"
+        android:fontFamily="@font/sfpregular"
+        android:text="@string/app_name"
+        android:textColor="@color/foregroundColor"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:alpha="0.35"
+        android:fontFamily="@font/sfpregular"
+        android:text="@string/version"
+        android:textColor="@color/foregroundColor"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tv_app"
+        app:layout_constraintTop_toTopOf="@+id/tv_app" />
+
+    <TextView
+        android:id="@+id/tv_dev2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="-18dp"
+        android:fontFamily="@font/sfpregular"
+        android:text="@string/about_appDescription"
+        android:textColor="@color/foregroundColor"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_app" />
+
+    <TextView
+        android:id="@+id/tv_dev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/sfpregular"
+        android:text="@string/about_dev"
+        android:textColor="@color/foregroundColor"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dev2" />
+
+    <TextView
+        android:id="@+id/tv_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="-10dp"
+        android:alpha="0.5"
+        android:fontFamily="@font/sfpregular"
+        android:text="@string/currentYear"
+        android:textColor="@color/foregroundColor"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dev" />
+
+    <TextView
+        android:id="@+id/tv_line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:fontFamily="@font/sfpregular"
+        android:text="@string/about_email_line1"
+        android:textColor="@color/foregroundColor"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message_btn" />
+
+    <TextView
+        android:id="@+id/tv_line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="-10dp"
+        android:fontFamily="@font/sfpregular"
+        android:text="@string/about_email_line2"
+        android:textColor="@color/foregroundColor"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_line1" />
+
+    <TextView
+        android:id="@+id/tv_line3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/sfpregular"
+        android:text="@string/about_email_line3"
+        android:textColor="@color/foregroundColor"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_line2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackgroundColor"
+    android:foregroundTint="@color/accentColor"
+    tools:context=".Activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="30dp">
+
+            <Button
+                android:id="@+id/settingsBtn"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:shadowColor="#00FFFFFF"
+                app:cornerRadius="100dp"
+                app:icon="@drawable/settings"
+                app:iconTint="@color/additionalColor"
+                app:strokeColor="@color/mainBackgroundColor" />
+
+            <TextView
+                android:id="@+id/appNamePlain"
+                style="@style/textview"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/regular_font"
+                android:textColor="@color/foregroundColor" />
+
+            <Button
+                android:id="@+id/eraseBtn"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:cornerRadius="100dp"
+                app:icon="@drawable/round_backspace_24"
+                app:iconTint="@color/additionalColor" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linearLayoutLabel">
+
+            <EditText
+                android:id="@+id/textBlock"
+                style="@style/inputLabel"
+
+                android:fontFamily="@font/regular_font"
+                android:foregroundTint="@color/accentColor"
+                android:inputType="text|textMultiLine|textNoSuggestions"
+                android:textColorLink="@color/accentColor"
+                tools:layout_editor_absoluteX="15dp"
+                tools:layout_editor_absoluteY="15dp" />
+
+            <TextView
+                android:id="@+id/resultsBlock"
+                style="@style/resultView"
+                android:fontFamily="@font/regular_font" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

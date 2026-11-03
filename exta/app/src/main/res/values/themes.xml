@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Exta" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/mainBackgroundColor</item>
+        <item name="colorPrimaryVariant">@color/backgroundColor</item>
+        <item name="colorOnPrimary">@color/backgroundColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/mainBackgroundColor</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Customize your theme here.
+        <item name="android:navigationBarColor">@color/mainBackgroundColor</item>
+        -->
+    </style>
+</resources>

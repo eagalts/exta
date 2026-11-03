@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "514127816418",
+    "project_id": "app-exta",
+    "storage_bucket": "app-exta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514127816418:android:dff39070c5eae0a46e20bb",
+        "android_client_info": {
+          "package_name": "com.eagalts.exta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBPo4B-qXQ09SD19L73HGbLAp73zDOe5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

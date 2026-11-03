@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name" translatable="false">exta</string>
+    <string name="version" translatable="false">2.1.3</string>
+
+    <string name="exta" translatable="false">EXTA</string>
+    <string name="title_activity_firstlaunch" translatable="false">activity_firstlaunch</string>
+
+    <!-- Greetings -->
+    <string name="greetings_header">Welcome!</string>
+    <string name="greetings_line1">✨ exta - a new computing experience</string>
+    <string name="greetings_before">Before continuing:</string>
+    <string name="greetings_line2">Take a look for yourself:</string>
+    <string name="greetings_line3">Click on the application name</string>
+    <string name="greetings_line4">to open settings:</string>
+    <string name="greetings_exampleline1" translatable="false">200 / (7 * 5 ^ 2)</string>
+    <string name="greetings_exampleline2">10$ in euro</string>
+    <string name="greetings_exampleline3" translatable="false">50% от 50$</string>
+    <string name="faqbutton">Knowledge</string>
+    <string name="greetings_go">GET TO WORK</string>
+    <string name="greetings_exampleanswer1" translatable="false">1,14</string>
+    <string name="greetings_exampleanswer2" translatable="false">9,41 €</string>
+    <string name="greetings_exampleanswer3" translatable="false">25 $</string>
+
+    <!-- Settings -->
+    <string name="title_activity_settings" translatable="false">SETTINGS</string>
+    <string name="settings_label">Settings</string>
+    <string name="setting_std_accuracy" translatable="false">2</string>
+    <string name="settings_save">💾  Save notepad on exit</string>
+    <string name="settings_accuracy">Precision:</string>
+    <string name="settings_converter">💰  Currency converter</string>
+    <string name="settings_variables">💬  Allow using variables</string>
+    <string name="ang_units">Angular units:</string>
+    <string name="using_scale_forms">📐  Using scale forms</string>
+    <string name="using_time_math">🕔  Using time operations</string>
+
+    <string name="settings_version">exta version:</string>
+    <string name="greetings_exampleline">Command</string>
+    <string name="greetings_exampleanswer">Answer</string>
+
+    <!-- TimeMath Extension -->
+    <string name="minutes_abbr">min</string>
+    <string name="hours_abbr">h</string>
+    <string name="seconds_abbr">sec</string>
+    <string name="days_abbr">d</string>
+
+    <!-- Update -->
+    <string name="update_header">🔥 Wow!</string>
+    <string name="update_line1">exta app has been updated:</string>
+    <string name="update_line2">Time is now under your control</string>
+    <string name="update_thanks">Thank you for using exta ❤️</string>
+    <string name="update_exampleline1" translatable="false">11:30 + 2:45</string>
+    <string name="update_exampleline2">3 days to hours</string>
+    <string name="update_exampleline3">194 hours in days</string>
+    <string name="update_exampleline4">52 min to sec</string>
+    <string name="update_exampleline5" translatable="false">23:45 + 11:50 - 2:15</string>
+    <string name="update_exampleanswer1" translatable="false">14:15</string>
+    <string name="update_exampleanswer2">72h</string>
+    <string name="update_exampleanswer3">8d 2h</string>
+    <string name="update_exampleanswer4" translatable="false">3 120</string>
+    <string name="update_exampleanswer5">1d 10:05</string>
+    <string name="update_before">In the knowledge base, we have detailed how to use this. Please read it:</string>
+
+    <string name="update_old">Old font: 2$ + 2 * 7,5$</string>
+    <string name="update_new">New font: 2$ + 2 * 7,5$</string>
+    <string name="greetings_smile" translatable="false">👋</string>
+    <string name="settings_more">About app</string>
+    <string name="err_connection_line1">Error when loading currency rate!</string>
+    <string name="err_connection_line2">Check network connection.</string>
+    <string name="email_header">Message (mobile app)</string>
+    <string name="email_info">Information</string>
+    <string name="email_currentVersion">Current version</string>
+    <string name="email_device">Device</string>
+    <string name="email_sdk">Android SDK</string>
+    <string name="email_screenRes">Resolution</string>
+    <string name="email_hw">HW</string>
+    <string name="email_pr">Pr</string>
+    <string name="email_br">Br</string>
+    <string name="email_greetings">Hello.</string>
+    <string name="applogo">appLogo</string>
+    <string name="about_dev">Dev by @eagalts</string>
+    <string name="currentYear">2024</string>
+    <string name="about_sendEmailBtn">Contact us</string>
+    <string name="about_appDescription">Smart calculator for Android.</string>
+    <string name="about_email_line1">Any ideas or suggestions?</string>
+    <string name="about_email_line2">Something\'s not working? Any questions?</string>
+    <string name="about_email_line3">Please contact us on the button above.</string>
+    <string name="toast_returnNotebook">Press the button again to bring the text back.</string>
+    <string name="welcome_line5">of</string>
+    <string name="welcome_line8">5 days in hours</string>
+    <string name="welcome_line1">Example of exta work:</string>
+    <string name="welcome_line2">Press the button in</string>
+    <string name="welcome_line3">upper right corner</string>
+    <string name="welcome_line4">to clear the screen.</string>
+    <string name="welcome_line6">25% of 50k RUB</string>
+    <string name="welcome_line7">1$ in euro</string>
+</resources>
